@@ -55,7 +55,7 @@ The repository is organized into the following directories:
 
 The project utilizes the widely recognized MNIST dataset, a collection of handwritten digit images (0-9) that has become a standard benchmark for image classification tasks. This dataset is readily available within TensorFlow's `keras.datasets` module, making it easy to load and use for training and evaluating models.
 
-![MNIST Dataset](https://www.researchgate.net/profile/Steven-Young-5/publication/306056875/figure/fig1/AS:393921575309346@1470929630835/Example-images-from-the-MNIST-dataset.png)
+![MNIST Dataset](/docs/asests/MNIST-dataset.png)
 
 **Key Features of the MNIST Dataset:**
 
@@ -76,13 +76,13 @@ The MNIST dataset's ease of use, clear task definition, and established benchmar
 
 ### Single Neuron with 784 Features
 
-![Single Neuron with 784 Features](single_neuron.png)
+![Single Neuron with 784 Features](/jupyter-notebook/images/1_3.png)
 
 This diagram illustrates a single neuron with 784 inputs, representing the pixels of a flattened MNIST image (28x28 = 784). While this approach is simple, it's not powerful enough to learn complex patterns for handwritten digit recognition.
 
 ### Neural Network with Two Hidden Layers
 
-![Neural Network with Two Hidden Layers](two_hidden_layers.png)
+![Neural Network with Two Hidden Layers](/jupyter-notebook/images/1_4.png)
 
 This diagram shows a more complex neural network with two hidden layers. These layers, consisting of multiple neurons, allow the network to learn intricate relationships between the input pixels and the corresponding digits. This architecture is much more effective at classifying handwritten digits.
 
@@ -92,9 +92,16 @@ Contributions to this project are welcome! Feel free to open an issue or submit 
 
 ## Acknowledgements
 
-This project is based on the "Basic Image Classification with TensorFlow" guided project provided by the Coursera Project Network. Thanks to Coursera for providing this learning opportunity.
+This project builds upon the foundational knowledge and structure provided by the "Basic Image Classification with TensorFlow" guided project hosted by the Coursera Project Network. We express our gratitude to Coursera for offering this valuable learning opportunity.
 
-## Resources
+We also acknowledge the invaluable contribution of the MNIST dataset, originally compiled by Yann LeCun, Corinna Cortes, and Christopher Burges. 
 
-- Coursera Project Link: [Basic Image Classification with TensorFlow](https://www.coursera.org/projects/tensorflow-beginner-basic-image-classification)
-- TensorFlow Documentation: [https://www.tensorflow.org/](https://www.tensorflow.org/)
+**References:**
+
+* Deng, L. (2012). The mnist database of handwritten digit images for machine learning research. IEEE Signal Processing Magazine, 29(6), 141–142.
+
+**Resources:**
+
+* TensorFlow Documentation: [https://www.tensorflow.org/](https://www.tensorflow.org/)
+* Coursera Project Link: [Basic Image Classification with TensorFlow](https://www.coursera.org/projects/tensorflow-beginner-basic-image-classification)
+
