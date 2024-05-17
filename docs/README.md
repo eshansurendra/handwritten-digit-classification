@@ -1,4 +1,4 @@
-# Basic Image Classification with TensorFlow
+# Handwritten Digit Classification with TensorFlow
 
 This repository contains code for a guided project focused on Basic Image Classification with TensorFlow, hosted by the Coursera Project Network.
 
