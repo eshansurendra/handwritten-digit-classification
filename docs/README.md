@@ -27,11 +27,15 @@ The project is structured into several stages, each addressing a specific aspect
    - **Keras:** (Included in TensorFlow)
    - **NumPy:**  `pip install numpy`
    - **Matplotlib:**  `pip install matplotlib`
-3. **Run the Code:** Follow the instructions provided within each script to:
-   - Preprocess the data.
-   - Create and train your neural network model.
-   - Evaluate the model's performance.
-   - Visualize predictions.
+
+## Getting Started
+
+1. **Open `/src/main.py`:** Launch the script in your preferred Python environment.
+2. **Run the Code:** Execute the script to step through the project's tasks, including:
+   - Loading and preparing the MNIST dataset.
+   - Creating and training a neural network model.
+   - Evaluating the trained model.
+   - Visualizing predictions.
 
 ## Code Structure
 
@@ -49,16 +53,38 @@ The repository is organized into the following directories:
 
 ## Dataset
 
-The project uses the well-known MNIST dataset, which consists of handwritten digit images (0-9). This dataset is included within TensorFlow's `keras.datasets` module.
+The project utilizes the widely recognized MNIST dataset, a collection of handwritten digit images (0-9) that has become a standard benchmark for image classification tasks. This dataset is readily available within TensorFlow's `keras.datasets` module, making it easy to load and use for training and evaluating models.
 
-## Getting Started
+![MNIST Dataset](https://www.researchgate.net/profile/Steven-Young-5/publication/306056875/figure/fig1/AS:393921575309346@1470929630835/Example-images-from-the-MNIST-dataset.png)
 
-1. **Open `main.py`:** Launch the script in your preferred Python environment.
-2. **Run the Code:** Execute the script to step through the project's tasks, including:
-   - Loading and preparing the MNIST dataset.
-   - Creating and training a neural network model.
-   - Evaluating the trained model.
-   - Visualizing predictions.
+**Key Features of the MNIST Dataset:**
+
+* **Size:** It contains a total of 70,000 images, split into 60,000 training images and 10,000 testing images.
+* **Image Format:** Each image is a grayscale image with a resolution of 28x28 pixels.
+* **Labels:** Each image is labeled with its corresponding digit (0-9).
+* **Accessibility:** It is readily accessible through TensorFlow's `keras.datasets` module, simplifying data loading and usage.
+
+**Why MNIST is Used:**
+
+* **Simplicity:** The dataset is relatively small and straightforward to work with, making it ideal for beginners learning about image classification.
+* **Well-defined task:** The task of classifying handwritten digits is well-understood and provides a clear objective for model training and evaluation.
+* **Benchmarked performance:**  It has been extensively used in research and development, providing a common ground for comparing different models and algorithms.
+
+The MNIST dataset's ease of use, clear task definition, and established benchmark nature make it an excellent choice for this image classification project. 
+
+## Neural Networks
+
+### Single Neuron with 784 Features
+
+![Single Neuron with 784 Features](single_neuron.png)
+
+This diagram illustrates a single neuron with 784 inputs, representing the pixels of a flattened MNIST image (28x28 = 784). While this approach is simple, it's not powerful enough to learn complex patterns for handwritten digit recognition.
+
+### Neural Network with Two Hidden Layers
+
+![Neural Network with Two Hidden Layers](two_hidden_layers.png)
+
+This diagram shows a more complex neural network with two hidden layers. These layers, consisting of multiple neurons, allow the network to learn intricate relationships between the input pixels and the corresponding digits. This architecture is much more effective at classifying handwritten digits.
 
 ## Contributions
 
