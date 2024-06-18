@@ -4,6 +4,11 @@ This repository contains code for a guided project focused on Basic Digit Image 
 
 ![Handwritten Digit Classification with TensorFlow](/jupyter-notebook/images/1_1.png)
 
+> [!TIP]
+> For a more comprehensive understanding of the implementation, refer this [notebook on Kaggle](https://www.kaggle.com/code/eshansurendra/handwritten-digit-classification-with-tensorflow)
+
+
+
 ## Project Overview
 
 The project is structured into several stages, each addressing a specific aspect of image classification with TensorFlow:
